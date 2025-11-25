@@ -26,7 +26,32 @@
             <div class="overlay"></div>
             <div class="BannerConte">
 
-                
+
+        <div class="container">
+        <h2>Agenda tu Cita</h2>
+        <form action="#" method="post">
+            
+            <label for="nombre">Nombre completo</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required>
+
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" name="telefono" placeholder="Ingresa tu número" required>
+
+            <label for="hora">Hora de la cita</label>
+            <input type="time" id="hora" name="hora" required>
+
+            <label for="paquete">Selecciona un paquete</label>
+            <select id="paquete" name="paquete" required>
+                <option value="">-- Selecciona --</option>
+                <option value="platino">Platino</option>
+                <option value="plata">Plata</option>
+                <option value="bronce">Bronce</option>
+            </select>
+
+            <button type="submit">Agendar Cita</button>
+        </form>
+    </div>
+
             
             </div>
         </section>
