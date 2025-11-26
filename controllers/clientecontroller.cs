@@ -27,7 +27,7 @@ namespace AgendamientosBarberia.Controllers
                 cmd.Parameters.AddWithValue("@telefono", cliente.Telelfono);
                 cmd.Parameters.AddWithValue("@edad", cliente.Edad);
                 cmd.Parameters.AddWithValue("@clave", cliente.Clave);
-                 cmd.ExecuteNonQuery();
+                cmd.ExecuteNonQuery();
             }
         }
 
